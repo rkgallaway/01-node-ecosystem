@@ -1,15 +1,16 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB 02
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 01
 =================================================
 
-## 02 Node Ecosystem
+## 01 Node Ecosystem
 
 ### Author: Ryan Gallaway
 
 ### Links and Resources
+
+
 * [repo](https://github.com/rkgallaway/01-node-ecosystem)
 * [travis](https://www.travis-ci.com/rkgallaway/01-node-ecosystem)
-* [back-end](https://lab-02-node-ecosystem.herokuapp.com/)
-* [front-end](http://xyz.com)
+* [server](https://lab-02-node-ecosystem.herokuapp.com/)
 
 ### Modules
 #### `modulename.js`
