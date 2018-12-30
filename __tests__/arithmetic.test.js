@@ -1,11 +1,16 @@
 'use strict';
 
 const arithmetic = require('../lib/arithmetic.js');
+const faker = require('faker');
+
+const ranNum = faker.random.number();
 
 describe('adder module', () => {
   it ('can add 2 numbers', () => {
-    let expected = 2;
-    let sum = arithmetic.add(1, 1);
+    let param1 = ranNum;
+    let param2 = ranNum;
+    let expected = (param1 + param2);
+    let sum = arithmetic.add(param1, param2);
     expect( sum).toEqual(expected);
   });
   it ('rejects if a not a number', () => {
@@ -22,8 +27,10 @@ describe('adder module', () => {
 
 describe('subtracter module', () => {
   it('can subtract 2 numbers', () => {
-    let expected = 0;
-    let difference = arithmetic.subtract(1, 1);
+    let param1 = ranNum;
+    let param2 = ranNum;
+    let expected = (param1 - param2);
+    let difference = arithmetic.subtract(param1, param2);
     expect(difference).toEqual(expected);
   });
   it ('rejects if a not a number', () => {
@@ -40,8 +47,10 @@ describe('subtracter module', () => {
 
 describe('multiplier module', () => {
   it ( 'can multiply 2 numnbers', () =>{
-    let expected = 1;
-    let product = arithmetic.multiply(1, 1);
+    let param1 = ranNum;
+    let param2 = ranNum;
+    let expected = (param1 * param2);
+    let product = arithmetic.multiply(param1, param2);
     expect(product).toEqual(expected);
   });
   it ('rejects if a not a number', () => {
@@ -58,7 +67,9 @@ describe('multiplier module', () => {
 
 describe('divide module', () => {
   it ( 'can divide 2 numnbers', () =>{
-    let expected = 1;
+    let param1 = ranNum;
+    let param2 = ranNum;
+    let expected = (param1 / param2);
     let division = arithmetic.divide(1, 1);
     expect(division).toEqual(expected);
   });
