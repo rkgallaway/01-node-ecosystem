@@ -16,11 +16,11 @@
 ### Modules
 #### `arithmetic.js`
 #### `greet.js`
-##### Arithmetic module
-Use the faker module to randomize input and add, subtract, multiply and divide input
+##### Arithmetic modules
+Use the faker module to randomize input (airty of two) and add, subtract, multiply and divide input.  value of 'null' returned if input is not a number or if dividing by 0.
 
 ##### Greet module
-Use the faker module to randomize input and concatonate hello +input if input is a string.
+Use the faker module to randomize input (airty of one) and concatonate hello +input if input is a string. value of 'null' returned if input is not a string.
 
 ### Setup
 #### `.env` requirements
@@ -29,14 +29,11 @@ Use the faker module to randomize input and concatonate hello +input if input is
 #### Running the app
 * `npm start`
 * Endpoint: `/`
-  <!-- * Returns a JSON object with abc in it.
-<!-- * Endpoint: `/bing/zing/` -->
-  <!-- * Returns a JSON object with xyz in it. --> 
 
 #### Tests
 * npm test (runs unit tests)
 * npm run  lint (runs linter tests)
-* node <file-name> test
+* node -file-name- test
 * How do you run tests?
 * arithmetic must be done with integers, and cannot divide by 0
 * greet must be done with a string
