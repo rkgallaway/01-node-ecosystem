@@ -15,18 +15,16 @@
 
 ### Modules
 #### `arithmetic.js`
-##### Exported Values and Methods
+#### `greet.js`
+##### Arithmetic module
+Use the faker module to randomize input and add, subtract, multiply and divide input
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+##### Greet module
+Use the faker module to randomize input and concatonate hello +input if input is a string.
 
 ### Setup
 #### `.env` requirements
 * `PORT` - defined in ENV
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 * `npm start`
@@ -38,9 +36,10 @@ Usage Notes or examples
 #### Tests
 * npm test (runs unit tests)
 * npm run  lint (runs linter tests)
+* node <file-name> test
 * How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* arithmetic must be done with integers, and cannot divide by 0
+* greet must be done with a string
 
 <!-- #### UML
 Link to an image of the UML for your application and response to events -->
