@@ -29,9 +29,6 @@ Use the faker module to randomize input (airty of one) and concatonate hello +in
 #### Running the app
 * `npm start`
 * Endpoint: `/`
-  <!-- * Returns a JSON object with abc in it.
-<!-- * Endpoint: `/bing/zing/` -->
-  <!-- * Returns a JSON object with xyz in it. --> 
 
 #### Tests
 * npm test (runs unit tests)

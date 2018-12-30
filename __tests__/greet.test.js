@@ -10,7 +10,8 @@ describe('greet module', () => {
   });
   it ('only accepts string', () => {
     let expected = null;
-    let greeting = greet.hello(1);
+    let greeting = greet.hello(2);
     expect(greeting).toEqual(expected);
   });
 });
+

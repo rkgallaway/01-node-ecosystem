@@ -56,7 +56,7 @@ describe('multiplier module', () => {
   });
 });
 
-describe('divider module', () => {
+describe('divide module', () => {
   it ( 'can divide 2 numnbers', () =>{
     let expected = 1;
     let division = arithmetic.divide(1, 1);
